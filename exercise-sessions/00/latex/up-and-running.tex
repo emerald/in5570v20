@@ -11,9 +11,13 @@ Hub:\\[0.5em] \url{https://hub.docker.com/r/portoleks/in5570v20/}
 
 \item Once you have Docker installed, you can run it as follows:
 
+\vspace{-0.2in}
+
 \begin{lstlisting}[language=bash]
 $ docker run -it --rm portoleks/in5570v20:latest
 \end{lstlisting}
+
+\item \textbf{NB!} Windows users see also next slide
 
 \item This lands you in a BASH shell, having the following binaries:
 
@@ -34,6 +38,8 @@ $ docker run -it --rm portoleks/in5570v20:latest
 directory}}\footnote{Make sure you are in a project directory before
 you run this command} mounted, do this instead:
 
+\vspace{-0.2in}
+
 \begin{lstlisting}[language=bash]
 $ docker run -it --rm \
     --volume "$(pwd):/home/docker/src/" \
@@ -41,13 +47,54 @@ $ docker run -it --rm \
     portoleks/in5570v20:latest
 \end{lstlisting}
 
-\textbf{NB!} In Windows PowerShell, use \texttt{\lq} (backtick)
-instead of \texttt{\textbackslash} (backslash).
+\item For more on what this does see the README at
+
+\url{https://hub.docker.com/r/portoleks/in5570v20/}
 
 \end{itemize}
 
 \end{frame}
 
+
+\begin{frame}[fragile]
+
+\frametitle{Windows Users}
+
+\begin{itemize}
+
+\item If you are using Windows 10 Home Edition (or similar):
+
+\begin{itemize}
+
+\item Download and install Docker Toolbox:
+
+\url{https://docs.docker.com/toolbox/overview/}
+
+\item Make sure your folder with Emerald code (from where you also
+execute the \texttt{docker run} command), is under
+\texttt{C:\textbackslash{}Users}
+
+\item Make sure that folder is not marked read-only (placing it under
+your user directory should work)
+
+\end{itemize}
+
+\item If you are using Git BASH, you should be OK with the above command.
+
+\item If you are using PowerShell, use this command instead:
+
+\vspace{-0.2in}
+
+\begin{lstlisting}[language=bash]
+$ docker run -it --rm `
+    --volume "${PWD}:/home/docker/src/" `
+    --workdir "/home/docker/src/" `
+    portoleks/in5570v20:latest
+\end{lstlisting}
+
+\end{itemize}
+
+\end{frame}
 
 \begin{frame}[fragile]
 
