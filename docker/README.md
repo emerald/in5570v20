@@ -1,5 +1,10 @@
 # Running Emerald using Docker instances
 
+We've set up a Docker instance with Emerald installed called
+[`portoleks/in5570v20`](https://hub.docker.com/r/portoleks/in5570v20).
+
+This is the fastest way to get Emerald to run on your machine.
+
 ## One Terminal
 
 If all you need is a single terminal to the Docker image:
