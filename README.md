@@ -12,3 +12,13 @@ applications.
 Here you will find some of the tools, and source code behind the
 material used in the [2020 incarnation of the
 course](https://www.uio.no/studier/emner/matnat/ifi/IN5570/v20/index.html).
+
+## Emerald Modes
+
+Emerald modes are available for:
+
+  * [`listings` package in LaTeX](https://github.com/emerald/modes-listings)
+  * [Vim](https://github.com/emerald/modes-vim)
+  * [Atom](https://atom.io/packages/language-emerald)
+
+If you make a mode, let us know!
