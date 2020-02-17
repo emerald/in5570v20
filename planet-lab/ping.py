@@ -10,6 +10,7 @@ import sys
 LOGIN = 'diku_IN5570'
 KEYPATH = os.path.join(os.path.expanduser("~"), '.ssh', 'id_rsa')
 PROMPT=r"[#$]"
+TIMEOUT=5
 
 class CouldNotLogin(Exception):
     def __init__(self, message):
@@ -24,11 +25,12 @@ class SSH(pexpect.spawn):
     def __init__(self, server):
         pexpect.spawn.__init__(self,
             'ssh -l %s -i %s %s' % (LOGIN, KEYPATH, server),
-            encoding='utf-8')
+            encoding='utf-8',
+            timeout=TIMEOUT)
         self.setecho(False)
 
     def expect(self, p):
-        return super(SSH, self).expect(p, timeout=5)
+        return super(SSH, self).expect(p, timeout=TIMEOUT)
 
 
     def login(self):
