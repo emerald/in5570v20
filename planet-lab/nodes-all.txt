@@ -402,6 +402,7 @@ planetlab3.comp.nus.edu.sg
 planetlab3.csail.mit.edu
 planetlab3.cs.columbia.edu
 planetlab3.cse.nd.edu
+planetlab3.cs.ubc.ca
 planetlab3.cs.uchicago.edu
 planetlab3.cs.uiuc.edu
 planetlab3.cs.uoregon.edu
@@ -427,6 +428,7 @@ planetlab4.csail.mit.edu
 planetlab4.cs.duke.edu
 planetlab4.cse.nd.edu
 planetlab4.csres.utexas.edu
+planetlab4.cs.ubc.ca
 planetlab4.cs.uchicago.edu
 planetlab4.cs.uiuc.edu
 planetlab4.cs.uoregon.edu
