@@ -7,6 +7,7 @@ icnalplabs2.epfl.ch
 kulcha.mimuw.edu.pl
 mars.planetlab.haw-hamburg.de
 merkur.planetlab.haw-hamburg.de
+nuc1.planet-lab.eu
 onelab2.pl.sophia.inria.fr
 onelab3.info.ucl.ac.be
 pl1.prakinf.tu-ilmenau.de
@@ -24,6 +25,8 @@ planetlab2.informatik.uni-goettingen.de
 planetlab-2.ing.unimo.it
 planetlab2.u-strasbg.fr
 planetlab2.xeno.cl.cam.ac.uk
+planetlab3.cs.ubc.ca
+planetlab4.cs.ubc.ca
 planetlabeu-1.tssg.org
 planetlabeu-2.tssg.org
 ple1.cesnet.cz
@@ -32,3 +35,4 @@ ple41.planet-lab.eu
 ple42.planet-lab.eu
 ple43.planet-lab.eu
 ple44.planet-lab.eu
+vicky.planetlab.ntua.gr
