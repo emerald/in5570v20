@@ -1,9 +1,9 @@
 # PlanetLab Status Report
 
-Updated: 2020-03-05
+Updated: 2020-04-06
 
   * [Nodes in the diku_IN5570 slice](nodes-all.txt): 555
-  * [Good nodes in the diku_IN5570 slice](nodes-good.txt): 38
+  * [Good nodes in the diku_IN5570 slice](nodes-good.txt): 18
 
 What classifies as a good node:
 
