@@ -15,7 +15,11 @@ What classifies as a good node:
 ### [`ping.py`](ping.py)
 
 Given a list of nodes via standard input, finds the good ones among
-them (see definition of a good node above).
+them (see definition of a good node above). For instance:
+
+```
+$ cat nodes-all.txt | python ping.py
+```
 
 The script assumes that you have the requirements installed in your
 Python environment:
